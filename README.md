@@ -1,34 +1,20 @@
-# Image Classification App with PyTorch & Gradio
+## 🌐 Try It Online
 
-This project is a simple image classification web app built using Gradio and PyTorch. It uses a custom CNN model to classify uploaded images into one of three categories: Cat, Dog, or Person. The app displays both the predicted label and the labeled image.
+You can try the image classification app directly on Hugging Face Spaces:
 
-## 🚀 Features
+👉 [Image Classification App on Hugging Face](https://huggingface.co/spaces/Kumararaja/Image-Classification-App)
 
-- Upload and classify images as Cat, Dog, or Person
-- Custom CNN model built with PyTorch
-- Real-time prediction and image labeling
-- Gradio-based interactive web interface
+No need to download or run anything locally — just upload an image and get predictions instantly!
 
-## 🧠 Technologies Used
+## ⚠️ Model File Notice
 
-- Python
-- PyTorch
-- OpenCV
-- PIL (Pillow)
-- Gradio
-- torchvision
+Due to GitHub's 25MB file size limit, the trained model file (`cnn_128_model-100.pth`, ~30MB) is **not included** in this repository.
 
-## 📁 File Structure
+To run the app locally, you can:
+1. **Train the model yourself** using the architecture in `predict.py`.
+2. Or, **use the Hugging Face Space** linked above to run the app online.
 
-- `app.py`: Gradio interface for image classification
-- `predict.py`: CNN model definition and prediction logic
-- `model/cnn_128_model-100.pth`: Pretrained model weights
-- `uploaded_image.jpg`: Temporary file for uploaded image
-- `labeled_image.jpg`: Output image with prediction label
-
-## 🔐 Environment Variables
-
-No environment variables are required.
+Once you have the model, place it in the following path:
 
 ## 🛠️ How to Run
 
@@ -44,6 +30,7 @@ pip install -r requirements.txt
 ```
 
 3. **Ensure the model file is placed at:**
+where I coul
 ```
 model/cnn_128_model-100.pth
 ```
