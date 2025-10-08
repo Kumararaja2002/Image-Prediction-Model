@@ -12,7 +12,7 @@ Due to GitHub's 25MB file size limit, the trained model file (`cnn_128_model-100
 
 To run the app locally, you can:
 1. **Train the model yourself** using the architecture in `predict.py`.
-2. Or, **use the Hugging Face Space** linked above to run the app online.
+2. Or, **use the Hugging Face Space** linked above to run the app online and get the modelfile from the Huggingface files option.
 
 Once you have the model, place it in the following path:
 
